@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "SASDisplayKit",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v12)
     ],
     products: [
         .library(
@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SASDisplayKit",
-            url: "https://sdk.sascdn.com/mobile/displaysdk/ios/SASDisplayKit-8.0.0.zip",
-            checksum: "f7a489d39429ea47d433d85fb6189c7c9d15eea8d690091f0c54292bbf782684"),
+            url: "https://sdk.sascdn.com/mobile/displaysdk/ios/SASDisplayKit-7.23.2.zip",
+            checksum: "c067be1ec2f4e89c4418d32e5a2968ee1f6971b339ce4d5bc689e3074cfbb2f2"),
     ]
 )
