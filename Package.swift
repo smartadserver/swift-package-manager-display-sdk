@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SASDisplayKit",
-            url: "https://sdk.sascdn.com/mobile/displaysdk/ios/SASDisplayKit-8.3.0.zip",
-            checksum: "e2829aecc9b2256b72deba131b91323e54bebc4b480b7bc923d55f661d550393"),
+            url: "https://sdk.sascdn.com/mobile/displaysdk/ios/SASDisplayKit-8.3.1.zip",
+            checksum: "ec93ded386a204c7082fb02185e3c65e9c0abe180888a83982393c9a933b575c"),
     ]
 )
